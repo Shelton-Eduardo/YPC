@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="space-y-6">
+    <div class="bg-blue-600 p-6 rounded-3xl text-white shadow-xl shadow-blue-100">
+        <h2 class="text-2xl font-bold">Novidades SHED</h2>
+        <p class="opacity-80 text-sm">Confira as coleções de 2026.</p>
+    </div>
+    
+    <h3 class="font-bold text-lg">Categorias</h3>
+    <div class="grid grid-cols-2 gap-3">
+        <a href="/categoria/Papelaria" class="bg-slate-50 p-4 rounded-2xl border border-slate-100 text-center font-medium">Papelaria</a>
+        <a href="/categoria/Eletronicos" class="bg-slate-50 p-4 rounded-2xl border border-slate-100 text-center font-medium">Eletrônicos</a>
+    </div>
+</div>
+{% endblock %}
